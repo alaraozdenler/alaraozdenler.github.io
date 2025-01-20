@@ -1,1 +1,123 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alara Özdenler - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Alara Özdenler</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Alara Özdenler, a passionate and driven student pursuing a Master’s in Informatics at the Technical University of Munich. With a solid foundation in software development and a focus on iOS applications, I am eager to apply my skills to innovative projects that make a meaningful impact.</p>
+        <p>I have hands-on experience in iOS development, having contributed to several exciting projects, including a multiplayer social deduction game, an autonomous driving companion app, and a current project focused on developing a mindfulness and metacognition-based app to address personal gender bias. My technical expertise spans Swift, SwiftUI, Python, Go, PostgreSQL, CI/CD, Docker, and Ansible, among others. I’m also experienced in agile development and enjoy collaborating with diverse teams to deliver high-quality results.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>JoyRide - Autonomous Driving Companion App</h3>
+            <p>JoyRide integrates various existing systems into a single app, combining navigation (via Google Maps or Apple Maps), chat (integrated with messenger services like WhatsApp), weather updates, and games. All functionalities are enhanced with a gamification aspect, providing drivers with relevant information while ensuring an enjoyable, entertaining ride. </p>
+            <p>I personally contributed to the quiz feature, where users can choose between singleplayer and multiplayer game modes. In the singleplayer mode, users answer a series of questions, with a progress bar indicating correct and incorrect answers. For multiplayer, drivers can compete against each other with real-time questions, displaying their answers and comparing scores on a session-wide leaderboard. Additionally, I worked on integrating the ChatGPT API to generate localized questions based on the driver’s destination in singleplayer mode and the current location in multiplayer mode. I also designed several key screens, including the quiz selection, question number setup, and leaderboard screens in multiplayer mode.</p>
+            <div class="image-container">
+                <img src="assets/images/welcome.png" class="popup-img" data-img="assets/images/welcome.png">
+                <img src="assets/images/Navigation.png" class="popup-img" data-img="assets/images/Navigation.png">
+                <img src="assets/images/navigation2.png" class="popup-img" data-img="assets/images/navigation2.png">
+                <img src="assets/images/connect.png" class="popup-img" data-img="assets/images/connect.png">
+                <img src="assets/images/chat.png" class="popup-img" data-img="assets/images/chat.png">
+                <img src="assets/images/quiz1.png" class="popup-img" data-img="assets/images/quiz1.png">
+                <img src="assets/images/quiz2.png" class="popup-img" data-img="assets/images/quiz2.png">
+                <img src="assets/images/quiz3.png" class="popup-img" data-img="assets/images/quiz3.png">
+                <img src="assets/images/quiz4.png" class="popup-img" data-img="assets/images/quiz4.png">
+                <img src="assets/images/quiz5.png" class="popup-img" data-img="assets/images/quiz5.png">
+                <img src="assets/images/quiz6.png" class="popup-img" data-img="assets/images/quiz6.png">
+                <img src="assets/images/quiz7.png" class="popup-img" data-img="assets/images/quiz7.png">
+                <img src="assets/images/quiz8.png" class="popup-img" data-img="assets/images/quiz8.png">
+                <img src="assets/images/store.png" class="popup-img" data-img="assets/images/store.png">
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>AURA - iOS Multiplayer Social Deduction Game</h3>
+            <p>I coached a team of six students in developing an iOS app for Serapion GmbH, a multiplayer social deduction game inspired by 'Werewolf,' integrating both human and AI players powered by LLMs. </p>
+            <div class="image-container">
+                <img src="assets/images/welcome_aura.png" class="popup-img" data-img="assets/images/welcome_aura.png">
+                <img src="assets/images/name_aura.png" class="popup-img" data-img="assets/images/name_aura.png">
+                <img src="assets/images/ai_aura.png" class="popup-img" data-img="assets/images/ai_aura.png">
+                <img src="assets/images/lobby_aura.png" class="popup-img" data-img="assets/images/lobby_aura.png">
+                <img src="assets/images/lobby2_aura.png" class="popup-img" data-img="assets/images/lobby2_aura.png">
+                <img src="assets/images/role_aura.png" class="popup-img" data-img="assets/images/role_aura.png">
+                <img src="assets/images/kill1_aura.png" class="popup-img" data-img="assets/images/kill1_aura.png">
+                <img src="assets/images/kill_aura.png" class="popup-img" data-img="assets/images/kill_aura.png">
+                <img src="assets/images/narrator_aura.png" class="popup-img" data-img="assets/images/narrator_aura.png">
+                <img src="assets/images/discussion-aura.png" class="popup-img" data-img="assets/images/discussion-aura.png">
+                <img src="assets/images/accuse-aura.png" class="popup-img" data-img="assets/images/accuse-aura.png">
+                <img src="assets/images/voting_aura.png" class="popup-img" data-img="assets/images/voting_aura.png">
+                <img src="assets/images/end-aura.png" class="popup-img" data-img="assets/images/end-aura.png">
+            </div>
+        </div>
+    
+        <div class="project">
+            <h3>Gender Bias Intervention App</h3>
+            <p>I’m working on an iOS app with two students to assess and reduce gender bias through mindfulness and metacognition interventions. The app measures bias before and after the intervention and provides feedback to participants, helping analyze the effectiveness of these methods. </p>
+            <p>I focused on the meditation feature, incorporating AI-generated meditation text and audio. I also designed the introduction, breathing exercise (with animated clouds), audio, session completion, and onboarding screens for data collection at the start of the app.</p>
+            <div class="image-container">
+                <img src="assets/images/onboarding.png" class="popup-img" data-img="assets/images/onboarding.png">
+                <img src="assets/images/datacollection.png" class="popup-img" data-img="assets/images/datacollection.png">
+                <img src="assets/images/meditation1.png" class="popup-img" data-img="assets/images/meditation1.png">
+                <img src="assets/images/clouds2.png" class="popup-img" data-img="assets/images/clouds2.png">
+                <img src="assets/images/clouds1.png" class="popup-img" data-img="assets/images/clouds1.png">
+                <img src="assets/images/meditation2.png" class="popup-img" data-img="assets/images/meditation2.png">
+                <img src="assets/images/meditation3.png" class="popup-img" data-img="assets/images/meditation3.png">
+                <img src="assets/images/test1.png" class="popup-img" data-img="assets/images/test1.png">
+                <img src="assets/images/test2.png" class="popup-img" data-img="assets/images/test2.png">
+                <img src="assets/images/test3.png" class="popup-img" data-img="assets/images/test3.png">
+                <img src="assets/images/test4.png" class="popup-img" data-img="assets/images/test4.png">
+            </div>
+        </div>
+    </section>
+    
+    
+    </section>
+    
+    <!-- Modal Popup for Image Enlargement -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+    
+    
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <p>Click below to download my CV.</p>
+        <a href="assets/cv.pdf" class="btn" target="_blank">Download CV</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me!</p>
+        <ul>
+            <li>Email: <a href="mailto:ozdenleralara@gmail.com">ozdenleralara@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/alaraozdenler" target="_blank">linkedin.com/in/alaraozdenler</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Alara Özdenler. Built with GitHub Pages.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
