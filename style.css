@@ -92,7 +92,7 @@ section h2 {
 /* Style for image container */
 .image-container {
     display: flex;
-    flex-wrap: wrap;  /* Ensure the images wrap if necessary */
+    flex-wrap: wrap;  
     gap: 15px;
     justify-content: center;
     margin-top: 20px;
@@ -100,17 +100,16 @@ section h2 {
 
 /* Style for the images */
 .popup-img {
-    width: 80px; /* You can adjust this value */
+    width: 130px; 
     height: auto;
-    object-fit: cover;  /* Ensures images retain their aspect ratio */
+    object-fit: cover;  
     cursor: pointer;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Optional: Add a hover effect */
 .popup-img:hover {
-    transform: scale(1.05); /* A slight zoom effect */
+    transform: scale(1.05); 
 }
 
 /* Larger modal image */
