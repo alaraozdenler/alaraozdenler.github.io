@@ -120,7 +120,7 @@ const masterThesis = {
   title:
     "Master’s Thesis – Graph-Based Synthetic Data Generation of Architectural Floor Plans from SVG Data",
   summary:
-    "Researched graph-based generative models for architectural floor plans, including a preprocessing pipeline to transform SVG drawings into structured graph representations and an evaluation of their ability to capture spatial layout."
+    "In my master’s thesis, I investigated graph-based generative models for architectural floor plans by developing a preprocessing pipeline that converts SVG drawings into structured graph representations with semantic attributes, and evaluating their ability to represent spatial layout, including model limitations and future research directions.",
 }
 
 const aboutParagraphs = [
