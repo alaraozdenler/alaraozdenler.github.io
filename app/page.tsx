@@ -151,12 +151,12 @@ export default function Home() {
       <section className={styles.hero} id="home">
         <div className={styles.heroContent}>
           <img
-            src="/assets/images/profile.jpg"
+            src="/assets/images/IMG_5517.jpg"
             alt="Portrait of Alara Özdenler"
             className={styles.profilePic}
           />
           <h1 className={styles.title}>Alara Özdenler</h1>
-          <p className={styles.tagline}>Software Developer</p>
+          <p className={styles.tagline}>Full Stack Developer</p>
         </div>
       </section>
 
