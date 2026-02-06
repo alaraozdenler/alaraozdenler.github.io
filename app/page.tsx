@@ -124,9 +124,9 @@ const masterThesis = {
 }
 
 const aboutParagraphs = [
-  "I am a Master’s graduate in Informatics at the Technical University of Munich, where I also completed my Bachelor’s degree. My academic focus is on software development and machine learning, with a strong emphasis on building reliable, production-ready systems.",
-  "I have hands-on experience owning features end-to-end across mobile and web applications, from requirements and technical design to implementation, testing, and deployment. My background includes iOS development in both academic and industrial settings, as well as web development and test automation through multiple working student roles.",
-  "I enjoy working close to product requirements and users, translating ideas into scalable, maintainable solutions, and iterating based on feedback. I am comfortable taking responsibility for technical decisions, collaborating in cross-functional teams, and improving developer workflows through CI/CD and automation.",
+  "I am a recent Master's graduate in Informatics from the Technical University of Munich, where I also completed my Bachelor's degree. My academic focus is on software development and machine learning, with a strong emphasis on building reliable, production-ready systems.",
+  "I have hands-on experience owning features end-to-end across mobile and web applications, from technical design to deployment via CI/CD pipelines. My background includes iOS development (Swift/SwiftUI) in both academic and industrial settings, as well as web development and test automation through multiple working student roles at companies like Infineon and KINEXON.",
+  "I enjoy translating complex requirements into scalable, maintainable solutions, whether researching graph-based generative models for my Master's thesis or mentoring teams as an Agile Coach. I am comfortable taking responsibility for technical decisions, collaborating in cross-functional teams, and improving developer workflows through automation.",
 ];
 export default function Home() {
   const [activeImage, setActiveImage] = useState<ImageItem | null>(null);
