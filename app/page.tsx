@@ -36,9 +36,9 @@ const projects: Project[] = [
   {
     title: "JoyRide - Autonomous Driving Companion App",
     summary:
-      "Integrated navigation, chat, weather, and games in a gamified companion app to keep drivers informed and entertained.",
+      "Designed and implemented an iOS application end-to-end, from problem definition and prototyping to deployment, using SwiftUI and modern iOS development practices.",
     details:
-      "Built quiz experiences with single- and multiplayer modes, progress tracking, leaderboards, and OpenAI-powered localized questions. Designed and implemented selection, setup, and leaderboard screens for the multiplayer experience.",
+      "Implemented core features including real-time chat, navigation, weather integration, and gamified in-ride experiences, incorporating continuous feedback from biweekly stakeholder meetings. Collaborated within an eight-person development team, taking ownership of feature design and implementation across the full development lifecycle.",
     tone: "blue",
     images: formatImages(
       [
@@ -63,9 +63,9 @@ const projects: Project[] = [
   {
     title: "AURA - iOS Multiplayer Social Deduction Game",
     summary:
-      "Coached a team building an LLM-enhanced social deduction game inspired by Werewolf, blending AI and human players.",
+      "Led technical delivery of a team of six students developing an iOS multiplayer social deduction game inspired by Werewolf, integrating human players with AI agents powered by transformer-based language models.",
     details:
-      "Guided feature delivery across onboarding, lobby flows, AI narration, and live voting. Ensured gameplay polish and cohesive player experience across multiple interactive screens.",
+      "Designed and guided system architecture for AI–human interaction, translating functional requirements into technical specifications. Provided continuous technical mentorship and code-level guidance throughout the development lifecycle. Co-organized and led UI/UX and frontend workshops with training materials, code reviews, and structured feedback.",
     tone: "red",
     images: formatImages(
       [
@@ -89,9 +89,9 @@ const projects: Project[] = [
   {
     title: "Mindshift - Gender Bias Intervention App",
     summary:
-      "iOS app measuring and reducing bias through mindfulness and metacognition interventions with personalized feedback.",
+      "Designed and implemented Mindshift, an iOS application exploring the impact of mindfulness on reducing gender bias.",
     details:
-      "Implemented meditation flows, scenario-based questions, and transition/final views to keep participants engaged and to capture before/after intervention metrics.",
+      "Integrated guided meditation modules, the Implicit Association Test (IAT), and scenario-based decision tasks, enabling interactive assessment and data collection. Developed a robust SwiftUI-based frontend and coordinated app logic to ensure seamless user experience and reliable tracking of experimental data.",
     tone: "teal",
     images: formatImages(
       [
@@ -120,11 +120,11 @@ const masterThesis = {
   title:
     "Master’s Thesis – Graph-Based Synthetic Data Generation of Architectural Floor Plans from SVG Data",
   summary:
-    "In my master’s thesis, I investigated graph-based generative models for architectural floor plans by developing a preprocessing pipeline that converts SVG drawings into structured graph representations with semantic attributes, and evaluating their ability to represent spatial layout, including model limitations and future research directions.",
+    "Designed and implemented a pipeline to convert CAD/SVG-based architectural floor plans into semantically enriched graph representations. Developed and trained graph-based generative models, including an adapted DiGress model and a custom relational GraphVAE, to generate synthetic floor plan data for machine learning applications. Evaluated generated layouts for spatial coherence and semantic validity, identifying model limitations and proposing improvements for future system design and research.",
 }
 
 const aboutParagraphs = [
-  "I am a soon-to-be Master’s graduate in Informatics at the Technical University of Munich, where I also completed my Bachelor’s degree. My academic focus is on software development and machine learning, with a strong emphasis on building reliable, production-ready systems.",
+  "I am a Master’s graduate in Informatics at the Technical University of Munich, where I also completed my Bachelor’s degree. My academic focus is on software development and machine learning, with a strong emphasis on building reliable, production-ready systems.",
   "I have hands-on experience owning features end-to-end across mobile and web applications, from requirements and technical design to implementation, testing, and deployment. My background includes iOS development in both academic and industrial settings, as well as web development and test automation through multiple working student roles.",
   "I enjoy working close to product requirements and users, translating ideas into scalable, maintainable solutions, and iterating based on feedback. I am comfortable taking responsibility for technical decisions, collaborating in cross-functional teams, and improving developer workflows through CI/CD and automation.",
 ];
