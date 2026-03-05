@@ -13,8 +13,9 @@ type Project = {
   title: string;
   summary: string;
   details: string;
-  tone: "blue" | "red" | "teal";
+  tone: "blue" | "red" | "teal" | "green" | "pink";
   images: ImageItem[];
+  siteLink?: string;
 };
 
 type Thesis = {
@@ -66,7 +67,7 @@ const projects: Project[] = [
       "Led technical delivery of a team of six students developing an iOS multiplayer social deduction game inspired by Werewolf, integrating human players with AI agents powered by transformer-based language models.",
     details:
       "Designed and guided system architecture for AI–human interaction, translating functional requirements into technical specifications. Provided continuous technical mentorship and code-level guidance throughout the development lifecycle. Co-organized and led UI/UX and frontend workshops with training materials, code reviews, and structured feedback.",
-    tone: "red",
+    tone: "green",
     images: formatImages(
       [
         "welcome_aura.png",
@@ -113,6 +114,26 @@ const projects: Project[] = [
       ],
       "Mindshift",
     ),
+  },
+  {
+    title: "Gümüş Madeni Jewelry Shop Website",
+    summary:
+      "Designed and implemented a website for a jewelry shop in Turkey, focusing on user experience, mobile responsiveness, and clear presentation of shop details.",
+    details:
+      "Built with Next.js and hosted on Firebase, the site provides information about the shop, its history, and how to find it, including location details and contact options.",
+    tone: "red",
+    images: [],
+    siteLink: "https://gumusmadeni.com",
+  },
+  {
+    title: "Venued – Co-Founder & Head of Product",
+    summary:
+      "Co-Founder and Head of Product for Venued, a social platform for event-based matchmaking. Leading the end-to-end product lifecycle in a lean team of three.",
+    details:
+      "Responsible for both strategic and technical foundations, including defining the core business model. Designed and implemented the official landing page to drive early validation and am currently developing the cross-platform mobile application. My role involves a high degree of versatility, ranging from market positioning and stakeholder communication to hands-on full-stack development.",
+    tone: "pink",
+    images: [],
+    siteLink: "https://venued.eu",
   },
 ];
 
@@ -180,6 +201,16 @@ export default function Home() {
                 <h3 className={styles.projectTitle}>{project.title}</h3>
                 <p className={styles.projectCopy}>{project.summary}</p>
                 <p className={styles.projectCopy}>{project.details}</p>
+                {project.siteLink && (
+                  <a
+                    href={project.siteLink}
+                    className={styles.cvButton}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit Site
+                  </a>
+                )}
                 <div className={styles.imageGrid}>
                   {project.images.map((image) => (
                     <img

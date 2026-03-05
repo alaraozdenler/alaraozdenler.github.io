@@ -1,3 +1,26 @@
+.projectCard[data-tone="pink"] {
+  background: #f9e9e9;
+  box-shadow: 0 4px 12px rgba(232, 142, 142, 0.08);
+  border: 1px solid #f0d0d0;
+}
+
+.projectCard[data-tone="pink"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(232, 142, 142, 0.12);
+}
+
+/* Green tone for project cards */
+.projectCard[data-tone="green"] {
+  background: #ecfdf5;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.08);
+  border: 1px solid #d1fae5;
+}
+
+.projectCard[data-tone="green"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(16, 185, 129, 0.12);
+}
+
 .page {
   background: #fafbfc;
   color: #1a202c;
@@ -215,9 +238,9 @@
 }
 
 .projectCard[data-tone="red"] {
-  background: #fef2f2;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.08);
-  border: 1px solid #fee2e2;
+  background: #f5e6e4;
+  box-shadow: 0 4px 12px rgba(220, 60, 47, 0.08);
+  border: 1px solid #e8d4d0;
 }
 
 .projectCard[data-tone="red"]:hover {
@@ -297,10 +320,37 @@
   font-size: 1rem;
 }
 
+.projectCard .cvButton {
+  width: fit-content;
+  align-self: center;
+}
+
 .cvButton:hover {
   background: #3a7aaa;
   transform: translateY(-1px);
   box-shadow: 0 6px 20px rgba(78, 154, 204, 0.3);
+}
+
+/* Pink button for Venued */
+.projectCard[data-tone="pink"] .cvButton {
+  background: #e88e8e;
+  box-shadow: 0 4px 15px rgba(232, 142, 142, 0.2);
+}
+
+.projectCard[data-tone="pink"] .cvButton:hover {
+  background: #d97878;
+  box-shadow: 0 6px 20px rgba(232, 142, 142, 0.3);
+}
+
+/* Red button for Gümüş Madeni */
+.projectCard[data-tone="red"] .cvButton {
+  background: #dc3c2f;
+  box-shadow: 0 4px 15px rgba(220, 60, 47, 0.2);
+}
+
+.projectCard[data-tone="red"] .cvButton:hover {
+  background: #a52f25;
+  box-shadow: 0 6px 20px rgba(220, 60, 47, 0.3);
 }
 
 .contactLinks {
